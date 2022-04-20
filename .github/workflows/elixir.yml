@@ -37,10 +37,10 @@ jobs:
     - name: Compile source files
       run: mix compile --warnings-as-errors --force
     - name: Run all tests
-      run: mix test
+      run: mix coveralls
     - name: Run code analysis
       run: mix credo -a
     - name: Formats the given files
       run: mix format --check-formatted
-    - name: Test coverage report
-      run: mix format --check-formatted
+    - name: Generate a codecov link
+      run: bash <(curl -s https://codecov.io/bash)
