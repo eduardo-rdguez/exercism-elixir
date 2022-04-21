@@ -1,21 +1,26 @@
-# ExercismElixir
+# Welcome to exercism-elixir 🚀
 
-**TODO: Add description**
+![Version](https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000)
+[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/eduardo-rdguez/exercism-elixir/blob/main/README.md)
+[![Depfu](https://badges.depfu.com/badges/b1ede4e070750ef1c3c43b1a3381df97/overview.svg)](https://depfu.com/github/eduardo-rdguez/elixir-exercism?project_id=35133)
+[![codecov](https://codecov.io/gh/eduardo-rdguez/elixir-exercism/branch/main/graph/badge.svg?token=1XE0U7QDYD)](https://codecov.io/gh/eduardo-rdguez/elixir-exercism)
 
-## Installation
+> Exercism solutions written in Elixir.
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `exercism_elixir` to your list of dependencies in `mix.exs`:
+## Run tests
 
-```elixir
-def deps do
-  [
-    {:exercism_elixir, "~> 0.1.0"}
-  ]
-end
+```sh
+mix test
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/exercism_elixir](https://hexdocs.pm/exercism_elixir).
+## Learn more
 
+* exercism: <https://exercism.org/tracks/elixir>
+* hexdocs: <https://hexdocs.pm/>
+* hex: <https://hex.pm/>
+
+## Author
+
+* Website: <https://eduardo-rdguez.github.io/>
+* Twitter: [@\_eduardguez](https://twitter.com/\_eduardguez)
+* Github: [@eduardo-rdguez](https://github.com/eduardo-rdguez)
