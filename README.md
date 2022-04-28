@@ -1,4 +1,4 @@
-# Welcome to exercism-elixir 🚀
+# Welcome to elixir-exercism 🚀
 
 ![Version](https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000)
 [![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/eduardo-rdguez/exercism-elixir/blob/main/README.md)
