@@ -36,7 +36,7 @@ defmodule Maps.HighScoreTest do
       |> Maps.HighScore.add_player("José Valim", 486_373)
       |> Maps.HighScore.reset_score("José Valim")
 
-    scores == %{"José Valim" => 0}
+    assert scores == %{"José Valim" => 0}
   end
 
   test "update_score/3 update score for non existent player initializes value" do
