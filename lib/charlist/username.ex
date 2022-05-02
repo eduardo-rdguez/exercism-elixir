@@ -12,12 +12,12 @@ defmodule Charlist.Username do
   @spec sanitize(charlist()) :: charlist()
   def sanitize(username) do
     Enum.reduce(username, '', fn char, acc ->
-      acc ++ validate(char)
+      acc ++ replace_chars(char)
     end)
   end
 
-  @spec validate(char()) :: charlist()
-  defp validate(char) do
+  @spec replace_chars(char()) :: charlist()
+  defp replace_chars(char) do
     case char do
       ?ä -> 'ae'
       ?ö -> 'oe'
