@@ -1,6 +1,6 @@
 defmodule Charlist.UsernameTest do
   use ExUnit.Case
-  alias Case.Username
+  alias Charlist.Username
 
   test "sanitize/1 works for an empty charlist" do
     assert Username.sanitize([]) == []
