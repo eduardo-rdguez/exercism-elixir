@@ -1,4 +1,4 @@
-defmodule WineCellar do
+defmodule KeywordLists.WineCellar do
   @moduledoc """
   This module allows guests to filter their wines according to their preferences.
   """
